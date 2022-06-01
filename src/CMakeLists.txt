@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.9)
 project(mpc)
 
+set(CMAKE_AR "/usr/bin/ar")
+
 set(CMAKE_CXX_STANDARD 11)
 SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 add_subdirectory(socketlib)
@@ -12,3 +14,4 @@ add_executable(mpcreader reader.cpp )
 add_executable(mpcwriter writer.cpp )
 target_link_libraries(mpcreader journal timer communicator mysocket)
 target_link_libraries(mpcwriter journal timer communicator mysocket)
+message([Main]  ${CMAKE_AR})

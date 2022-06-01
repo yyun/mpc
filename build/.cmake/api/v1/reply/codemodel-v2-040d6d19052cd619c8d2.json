@@ -1,0 +1,218 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "socketlib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "socketlib",
+					"targetIndexes" : 
+					[
+						5,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "core",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "core",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "utils",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "utils",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "communicator",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "communicator",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "service",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "service",
+					"targetIndexes" : 
+					[
+						3,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "mpc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "communicator::@21ef1a89109e8c158c4f",
+					"jsonFile" : "target-communicator-Debug-f0de82773aaf2c9fb058.json",
+					"name" : "communicator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "journal::@57760688d1f824db5d9c",
+					"jsonFile" : "target-journal-Debug-b0d8d01018c46c24aab4.json",
+					"name" : "journal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpcreader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpcreader-Debug-c39835a32fce8499eccd.json",
+					"name" : "mpcreader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "mpcserver::@63e5b5a4137cfa77cb9d",
+					"jsonFile" : "target-mpcserver-Debug-18b22f7988b2e5d3cbea.json",
+					"name" : "mpcserver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mpcwriter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mpcwriter-Debug-6967197eaa6e49566994.json",
+					"name" : "mpcwriter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mysocket::@e99a83d40d98652ded8f",
+					"jsonFile" : "target-mysocket-Debug-b8416fcbb59e633c1883.json",
+					"name" : "mysocket",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "server::@63e5b5a4137cfa77cb9d",
+					"jsonFile" : "target-server-Debug-6d72a04def906256d875.json",
+					"name" : "server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "simple_client_main::@e99a83d40d98652ded8f",
+					"jsonFile" : "target-simple_client_main-Debug-e05c06a4abcc9b8aeed1.json",
+					"name" : "simple_client_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "simple_server_main::@e99a83d40d98652ded8f",
+					"jsonFile" : "target-simple_server_main-Debug-56ae3162b199f72182d9.json",
+					"name" : "simple_server_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "timer::@c810615cce0f7acb82dc",
+					"jsonFile" : "target-timer-Debug-a263b5d62d22ec154f6e.json",
+					"name" : "timer",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/euweb/mygit/mpc/build",
+		"source" : "/home/euweb/mygit/mpc/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

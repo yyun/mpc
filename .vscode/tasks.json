@@ -1,0 +1,43 @@
+{
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceFolder}/build"
+    },
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cmake",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "/home/euweb/mygit/mpc/build",
+                "--config",
+                "Debug",
+                "--target",
+                "all",
+                "-j",
+                "6",
+                "--"
+            ]
+        },
+        {
+            "label": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make",
+            "args": [
+                ".."
+            ]
+        },
+        {
+            "label": "Build",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "cmake",
+                "make"
+            ]
+        }
+    ]
+}

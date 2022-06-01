@@ -1,0 +1,112 @@
+[
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -g -std=gnu++11 -o CMakeFiles/mpcreader.dir/reader.cpp.o -c /home/euweb/mygit/mpc/src/reader.cpp",
+  "file": "/home/euweb/mygit/mpc/src/reader.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -g -std=gnu++11 -o CMakeFiles/mpcwriter.dir/writer.cpp.o -c /home/euweb/mygit/mpc/src/writer.cpp",
+  "file": "/home/euweb/mygit/mpc/src/writer.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -I/home/euweb/mygit/mpc/src/socketlib -g -std=gnu++11 -o socketlib/CMakeFiles/simple_server_main.dir/simple_server_main.cpp.o -c /home/euweb/mygit/mpc/src/socketlib/simple_server_main.cpp",
+  "file": "/home/euweb/mygit/mpc/src/socketlib/simple_server_main.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -I/home/euweb/mygit/mpc/src/socketlib -g -std=gnu++11 -o socketlib/CMakeFiles/simple_server_main.dir/ClientSocket.cpp.o -c /home/euweb/mygit/mpc/src/socketlib/ClientSocket.cpp",
+  "file": "/home/euweb/mygit/mpc/src/socketlib/ClientSocket.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -I/home/euweb/mygit/mpc/src/socketlib -g -std=gnu++11 -o socketlib/CMakeFiles/simple_server_main.dir/ServerSocket.cpp.o -c /home/euweb/mygit/mpc/src/socketlib/ServerSocket.cpp",
+  "file": "/home/euweb/mygit/mpc/src/socketlib/ServerSocket.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -I/home/euweb/mygit/mpc/src/socketlib -g -std=gnu++11 -o socketlib/CMakeFiles/simple_server_main.dir/Socket.cpp.o -c /home/euweb/mygit/mpc/src/socketlib/Socket.cpp",
+  "file": "/home/euweb/mygit/mpc/src/socketlib/Socket.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -Dmysocket_EXPORTS -I/home/euweb/mygit/mpc/src/socketlib -g -fPIC -std=gnu++11 -o socketlib/CMakeFiles/mysocket.dir/ClientSocket.cpp.o -c /home/euweb/mygit/mpc/src/socketlib/ClientSocket.cpp",
+  "file": "/home/euweb/mygit/mpc/src/socketlib/ClientSocket.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -Dmysocket_EXPORTS -I/home/euweb/mygit/mpc/src/socketlib -g -fPIC -std=gnu++11 -o socketlib/CMakeFiles/mysocket.dir/ServerSocket.cpp.o -c /home/euweb/mygit/mpc/src/socketlib/ServerSocket.cpp",
+  "file": "/home/euweb/mygit/mpc/src/socketlib/ServerSocket.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -Dmysocket_EXPORTS -I/home/euweb/mygit/mpc/src/socketlib -g -fPIC -std=gnu++11 -o socketlib/CMakeFiles/mysocket.dir/Socket.cpp.o -c /home/euweb/mygit/mpc/src/socketlib/Socket.cpp",
+  "file": "/home/euweb/mygit/mpc/src/socketlib/Socket.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -I/home/euweb/mygit/mpc/src/socketlib -g -std=gnu++11 -o socketlib/CMakeFiles/simple_client_main.dir/simple_client_main.cpp.o -c /home/euweb/mygit/mpc/src/socketlib/simple_client_main.cpp",
+  "file": "/home/euweb/mygit/mpc/src/socketlib/simple_client_main.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -I/home/euweb/mygit/mpc/src/socketlib -g -std=gnu++11 -o socketlib/CMakeFiles/simple_client_main.dir/ClientSocket.cpp.o -c /home/euweb/mygit/mpc/src/socketlib/ClientSocket.cpp",
+  "file": "/home/euweb/mygit/mpc/src/socketlib/ClientSocket.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -I/home/euweb/mygit/mpc/src/socketlib -g -std=gnu++11 -o socketlib/CMakeFiles/simple_client_main.dir/ServerSocket.cpp.o -c /home/euweb/mygit/mpc/src/socketlib/ServerSocket.cpp",
+  "file": "/home/euweb/mygit/mpc/src/socketlib/ServerSocket.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -I/home/euweb/mygit/mpc/src/socketlib -g -std=gnu++11 -o socketlib/CMakeFiles/simple_client_main.dir/Socket.cpp.o -c /home/euweb/mygit/mpc/src/socketlib/Socket.cpp",
+  "file": "/home/euweb/mygit/mpc/src/socketlib/Socket.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -Djournal_EXPORTS -g -fPIC -std=gnu++11 -o core/CMakeFiles/journal.dir/Journal.cpp.o -c /home/euweb/mygit/mpc/src/core/Journal.cpp",
+  "file": "/home/euweb/mygit/mpc/src/core/Journal.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -Djournal_EXPORTS -g -fPIC -std=gnu++11 -o core/CMakeFiles/journal.dir/Page.cpp.o -c /home/euweb/mygit/mpc/src/core/Page.cpp",
+  "file": "/home/euweb/mygit/mpc/src/core/Page.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -Djournal_EXPORTS -g -fPIC -std=gnu++11 -o core/CMakeFiles/journal.dir/mmap_helper.cpp.o -c /home/euweb/mygit/mpc/src/core/mmap_helper.cpp",
+  "file": "/home/euweb/mygit/mpc/src/core/mmap_helper.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -Dtimer_EXPORTS -g -fPIC -std=gnu++11 -o utils/CMakeFiles/timer.dir/Timer.cpp.o -c /home/euweb/mygit/mpc/src/utils/Timer.cpp",
+  "file": "/home/euweb/mygit/mpc/src/utils/Timer.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -Dcommunicator_EXPORTS -g -fPIC -std=gnu++11 -o communicator/CMakeFiles/communicator.dir/Reader.cpp.o -c /home/euweb/mygit/mpc/src/communicator/Reader.cpp",
+  "file": "/home/euweb/mygit/mpc/src/communicator/Reader.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -Dcommunicator_EXPORTS -g -fPIC -std=gnu++11 -o communicator/CMakeFiles/communicator.dir/Writer.cpp.o -c /home/euweb/mygit/mpc/src/communicator/Writer.cpp",
+  "file": "/home/euweb/mygit/mpc/src/communicator/Writer.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -Dcommunicator_EXPORTS -g -fPIC -std=gnu++11 -o communicator/CMakeFiles/communicator.dir/communicator.cpp.o -c /home/euweb/mygit/mpc/src/communicator/communicator.cpp",
+  "file": "/home/euweb/mygit/mpc/src/communicator/communicator.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -g -std=gnu++11 -o service/CMakeFiles/mpcserver.dir/MpcServer.cpp.o -c /home/euweb/mygit/mpc/src/service/MpcServer.cpp",
+  "file": "/home/euweb/mygit/mpc/src/service/MpcServer.cpp"
+},
+{
+  "directory": "/home/euweb/mygit/mpc/build",
+  "command": "/usr/bin/c++ -g -std=gnu++11 -o service/CMakeFiles/server.dir/run_service.cpp.o -c /home/euweb/mygit/mpc/src/service/run_service.cpp",
+  "file": "/home/euweb/mygit/mpc/src/service/run_service.cpp"
+}
+]

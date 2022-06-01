@@ -11,48 +11,50 @@
 using std::map;
 
 FORWARD_DECLARE_PTR(Writer)
-class Writer: public communicator {
+class Writer : public communicator
+{
 private:
     SysJournalPtr system_journal;
     JournalPtr journal;
     string name;
-    Writer():frame(nullptr){}
-
+    Writer() : frame(nullptr) {}
 
 public:
-
-    int Regist()override{
-        Massage sendmsg=Massage::buildMsg(name.c_str(),MPC_MSG_USER_REG_WRITER,journal->getJournalName().c_str());
-        auto recvmsg=sendMessageAndBlock(sendmsg);
-        if(recvmsg.getResponseStatus()!=0) {
-            std::cout<<__FUNCTION__<<" ERROR:"<<recvmsg.getResponseStatus()<<std::endl;
-        }else{
+    int Regist() override
+    {
+        Massage sendmsg = Massage::buildMsg(name.c_str(), MPC_MSG_USER_REG_WRITER, journal->getJournalName().c_str());
+        auto recvmsg = sendMessageAndBlock(sendmsg);
+        if (recvmsg.getResponseStatus() != 0)
+        {
+            std::cout << __FUNCTION__ << " ERROR:" << recvmsg.getResponseStatus() << std::endl;
+        }
+        else
+        {
             setComIdx(recvmsg.getIdx());
         }
         return recvmsg.getResponseStatus();
     }
 
-    int UnRegist()override {
-        Massage sendmsg=Massage::buildMsg(name.c_str(),MPC_MSG_USER_UNREG_WRITER);
-        auto recvmsg=sendMessageAndBlock(sendmsg);
-        if(recvmsg.getResponseStatus()!=0) {
-            std::cout<<__FUNCTION__<<" ERROR:"<<recvmsg.getResponseStatus()<<std::endl;
+    int UnRegist() override
+    {
+        Massage sendmsg = Massage::buildMsg(name.c_str(), MPC_MSG_USER_UNREG_WRITER);
+        auto recvmsg = sendMessageAndBlock(sendmsg);
+        if (recvmsg.getResponseStatus() != 0)
+        {
+            std::cout << __FUNCTION__ << " ERROR:" << recvmsg.getResponseStatus() << std::endl;
         }
         return recvmsg.getResponseStatus();
     }
 
-
-
-    virtual void WriteFrame(void * data,int len);
-    static WriterPtr create(const char * dir,const char * jname);
+    virtual void WriteFrame(void *data, int len);
+    static WriterPtr create(const char *dir, const char *jname);
     Frame frame;
-    string getName()const{
+    string getName() const
+    {
         return name;
     }
 
-    ~Writer(){UnRegist();}
-
+    ~Writer() { UnRegist(); }
 };
 
-
-#endif //MPC_WRITER_H
+#endif // MPC_WRITER_H
